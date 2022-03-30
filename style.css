@@ -1,0 +1,91 @@
+body{
+    font-family: "Verdana";
+    font-size: 12px;
+}
+
+#navBar{
+    width: 100%;
+    background-color: #2980b9;
+    position: fixed;
+    margin-top: -15px;
+    margin-left: -10px;
+}
+
+.logoSite{
+    padding-left: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+
+.linkBar1{
+    margin-top: 30px;
+    padding-left: 300px;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+
+.linkBar2{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+}
+
+.linkBar3{
+    margin-right: 20px;
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+
+.navigationLink{
+    color: white;
+}
+
+.separatorLeft{
+    width: 200px;
+    height: 1000px; 
+    margin-top: 30px;
+    background-color: #34495e;
+    margin-left: -8px;
+    float: left;
+}
+h1{
+   padding-left: 300px;
+   padding-top: 20px;
+}
+
+.linkBar4{
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+.separatorRight{
+    width: 200px;
+    height: 1000px; 
+    margin-top: 30px;
+    background-color: #34495e;
+    margin-right: -8px;
+    float: right;
+}
+
+p{
+    padding-left:300px;
+}
+
+figure{
+    float: right;
+    height: 750px;
+}
+
+.mainPicture{
+   margin-top: 100px;
+}
+.planetName{
+   margin-left: 275px;
+}
