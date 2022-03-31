@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact us </title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <style>
+            .questionForm{
+                margin-left: 300px;
+                padding-top: 20px;
+            }
+
+            .imagePosition{
+                width: 400px;
+                height: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div id="navBar">
+                <div class="logoSite">
+                    <a href="home.html" alt="homePage" class="navigationLink">
+                        <img src="../Images/Logo.png" alt="logo">
+                    </a>
+                </div>
+                <div class="linkBar1">
+                    <a href="news.html" class="navigationLink">News</a>
+                </div>
+                <div class="linkBar2">
+                    <a href="contactUs.html" class="navigationLink">Contact us</a>
+                </div>
+                <div class="linkBar3">
+                    <a href="gallery.html" class="navigationLink">Gallery</a>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div class="separatorLeft"></div>
+            <div class="separatorRight"></div>
+        </section>
+
+        <main>
+            <div class="linkBar4">
+                <a href="planets.html">Planets</a>
+            </div>
+
+            <form>
+                <h1>Contact us</h1>
+
+                <p>
+                    If you have any questions about anything related to the solar system or any extra information,</br> please feel free to ask us with the form below:
+                </p>
+
+                <figure>
+                    <img src="../Images/solarSystem.jpg" alt="solar system" class="imagePosition">
+                </figure>
+
+                <div class="questionForm">
+                    <label for="fullname">Your name: </label>
+                    <input type="text" id="fullname" name="fullname" />
+
+                    <br/>
+                    <br/>
+
+                    <label for="contact">Email: </label>
+                    <input type="email" id="contact" name="contact" placeholder="example@domain.com"/>
+
+                    <br/>
+                    <br/>
+
+                    <span>If you have any questions related to a particular planet/s</br>please choose one or more option/s: </span>
+
+                    <br/>
+
+                    <input type="radio" id="mercury" name="planet1" value="mercury"/>
+                    <label for="mercury">Mercury</label>
+
+                    <br/>
+
+                    <input type="radio" id="venus" name="planet2" value="venus"/>
+                    <label for="venus">Venus</label> 
+
+                    <br/>
+
+                    <input type="radio" id="earth" name="planet3" value="earth"/>
+                    <label for="earth">Earth</label> 
+
+                    <br/>
+
+                    <input type="radio" id="mars" name="planet4" value="mars"/>
+                    <label for="mars">Mars</label> 
+
+                    <br/>
+
+                    <input type="radio" id="uranus" name="planet5" value="uranus"/>
+                    <label for="uranus">Uranus</label> 
+
+                    <br/>
+
+                    <input type="radio" id="jupiter" name="planet6" value="jupiter"/>
+                    <label for="jupiter">Jupiter</label>
+
+                    <br/>
+
+                    <input type="radio" id="saturn" name="planet7" value="saturn"/>
+                    <label for="saturn">Saturn</label>
+
+                    <br/>
+
+                    <input type="radio" id="neptune" name="planet8" value="neptune"/>
+                    <label for="neptune">Neptune</label>
+
+                    <br/>
+                    <br/>
+
+                    <span>If you have any questions that is not related to planets, please feel free to ask: </span>
+
+                    <br/>
+                    <br/>
+
+                    <label for="question">Your question:</label>
+                    <textarea id="question" name="question"></textarea>
+
+                    <br/>
+                    <br/>
+
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+
+    </body>
+
+</html>
