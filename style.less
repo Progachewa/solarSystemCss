@@ -1,7 +1,12 @@
+@mainDistanceLink: 30px 0 0 0;
+@mainDisplay: inline-block;
+@mainColor: #34495e;
+
 body {
   font-family: "Verdana";
   font-size: 12px;
 }
+
 #navBar {
   width: 100%;
   background-color: #2980b9;
@@ -9,6 +14,7 @@ body {
   margin-top: -15px;
   margin-left: -10px;
 }
+
 .logoSite {
   padding-left: 250px;
   padding-top: 10px;
@@ -17,63 +23,75 @@ body {
   height: 70px;
   float: left;
 }
+
 .linkBar1 {
-  margin: 30px 0 0 0;
+  margin: @mainDistanceLink;
   padding-left: 300px;
   width: 100px;
   height: 50px;
-  display: inline-block;
+  display: @mainDisplay;
 }
+
 .linkBar2 {
-  margin: 30px 0 0 0;
+  margin: @mainDistanceLink;
   width: 150px;
   height: 50px;
-  display: inline-block;
+  display: @mainDisplay;
 }
+
 .linkBar3 {
   margin-right: 20px;
-  margin: 30px 0 0 0;
+  margin: @mainDistanceLink;
   width: 100px;
   height: 50px;
-  display: inline-block;
+  display: @mainDisplay;
 }
+
 .navigationLink {
   color: white;
 }
-.separatorLeft {
+
+#container(){
   width: 200px;
   height: 1000px;
   margin-left: -8px;
-  margin: 30px 0 0 0;
-  background-color: #34495e;
+  margin: @mainDistanceLink;
+  background-color: @mainColor;
+}
+
+.separatorLeft {
+  #container();
   float: left;
 }
+
 h1 {
   padding-left: 300px;
   padding-top: 20px;
 }
+
 .linkBar4 {
   padding-left: 300px;
   padding-top: 100px;
 }
+
 .separatorRight {
-  width: 200px;
-  height: 1000px;
-  margin-left: -8px;
-  margin: 30px 0 0 0;
-  background-color: #34495e;
+  #container();
   float: right;
 }
+
 p {
   padding-left: 300px;
 }
+
 figure {
   float: right;
   height: 750px;
 }
+
 .mainPicture {
   margin-top: 100px;
 }
+
 .planetName {
   margin-left: 275px;
 }
